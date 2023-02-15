@@ -1,0 +1,35 @@
+{
+    "name": "artist/vinbot",
+    "type": "project",
+    "require": {
+        "php": "8.*",
+        "illuminate/database": "v9.*",
+        "doctrine/orm": "*",
+        "monolog/monolog": "3.*",
+        "guzzlehttp/guzzle": "7.*",
+        "nesbot/carbon": "2.*",
+        "psr/container": "*",
+        "psr/http-message": "*",
+        "psr/http-client": "*",
+        "psr/http-factory": "*",
+        "psr/http-server-handler": "*",
+        "ext-curl": "*",
+        "ufo-cms/colored_cli": " *",
+        "ext-readline": "*",
+        "ext-pdo": "*",
+        "symfony/cache": "6.3.x-dev",
+        "fgribreau/mailchecker": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\VinBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Pleskachov"
+        }
+    ],
+    "minimum-stability": "dev"
+}
